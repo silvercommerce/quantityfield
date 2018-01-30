@@ -1,5 +1,7 @@
 # SilverStripe Quantity Field
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/silvercommerce/quantityfield/badges/quality-score.png?b=1.0)](https://scrutinizer-ci.com/g/silvercommerce/quantityfield/?branch=1.0)
+
 Extended version of numeric input field with improved validation for numeric values.
 
 This module is basically a NumericField, but the validator perorms a
