@@ -29,7 +29,7 @@ class QuantityField extends NumericField
     {
         return 'quantity numeric text';
     }
-0
+
     /**
      * PHP Validation
      * 
