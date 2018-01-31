@@ -11,7 +11,6 @@ use SilverStripe\Forms\NumericField;
  */
 class QuantityField extends NumericField
 {
-
     /**
      * Construct this field (we override the default to set a default value)
      *
@@ -21,16 +20,16 @@ class QuantityField extends NumericField
      * @param [type] $maxLength
      * @param [type] $form
      */
-    public function __construct($name, $title = null, $value = 0, $maxLength = null, $form = null)
+    public function __construct($name, $title = null, $value = 1, $maxLength = null, $form = null)
     {
         parent::__construct($name, $title, $value);
     }
-    
+
     public function Type()
     {
         return 'quantity numeric text';
     }
-
+0
     /**
      * PHP Validation
      * 
